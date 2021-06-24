@@ -1,0 +1,93 @@
+ #background4 {
+ 	left: 0px;
+ 	top: 0px;
+ 	position: relative;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 1024px;
+ 	height: 2070px;
+ 	overflow: hidden;
+ 	z-index: 0;
+
+ }
+
+ #fundo4 {
+ 	left: 0px;
+ 	top: 0px;
+ 	position: absolute;
+ 	width: 1024px;
+ 	height: 2070px;
+ 	z-index: 1;
+ }
+
+ #GelaSorvetinho {
+ 	left: 372px;
+ 	top: 243px;
+ 	position: absolute;
+ 	width: 566px;
+ 	height: 119px;
+ 	z-index: 2;
+ }
+
+ #BonecaSF {
+ 	left: 53px;
+ 	top: 76px;
+ 	position: absolute;
+ 	width: 279px;
+ 	height: 386px;
+ 	z-index: 3;
+ }
+
+ #Face {
+ 	left: 338px;
+ 	top: 729px;
+ 	position: absolute;
+ 	width: 141px;
+ 	height: 141px;
+ 	z-index: 4;
+ }
+
+ #Insta {
+ 	left: 539px;
+ 	top: 729px;
+ 	position: absolute;
+ 	width: 138px;
+ 	height: 138px;
+ 	z-index: 5;
+ }
+
+ #Formulario {
+ 	left: 173px;
+ 	top: 937px;
+ 	position: absolute;
+ 	width: 677px;
+ 	height: 510px;
+ 	z-index: 6;
+ }
+
+ #Cardoso {
+ 	left: 172px;
+ 	top: 1764px;
+ 	position: absolute;
+ 	width: 676px;
+ 	height: 227px;
+ 	z-index: 7;
+ }
+
+ #linha4 {
+ 	left: 84px;
+ 	top: 1690px;
+ 	position: absolute;
+ 	width: 852px;
+ 	height: 8px;
+ 	z-index: 8;
+ }
+
+ #Parasabermais {
+ 	left: 173px;
+ 	top: 578px;
+ 	position: absolute;
+ 	width: 676px;
+ 	height: 109px;
+ 	z-index: 9;
+ }

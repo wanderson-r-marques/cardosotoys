@@ -1,0 +1,139 @@
+ #background3 {
+ 	left: 0px;
+ 	top: 0px;
+ 	position: relative;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 1024px;
+ 	height: 2071px;
+ 	overflow: hidden;
+ 	z-index: 0;
+ }
+
+ #fundo3 {
+ 	left: -266px;
+ 	top: 0px;
+ 	position: absolute;
+ 	width: 1556px;
+ 	height: 1620px;
+ 	z-index: 1;
+ }
+
+ #fundo_03 {
+ 	left: -168px;
+ 	top: 849px;
+ 	position: absolute;
+ 	width: 1246px;
+ 	height: 1441px;
+ 	z-index: 2;
+ }
+
+ #Ondecomprar3 {
+ 	left: 40px;
+ 	top: 26px;
+ 	position: absolute;
+ 	width: 936px;
+ 	height: 156px;
+ 	z-index: 3;
+ }
+
+ #embalagem3 {
+ 	left: 143px;
+ 	top: 221px;
+ 	position: absolute;
+ 	width: 726px;
+ 	height: 933px;
+ 	z-index: 4;
+ }
+
+ #VectorSmartObject3 {
+ 	left: 35px;
+ 	top: 1173px;
+ 	position: absolute;
+ 	width: 958px;
+ 	height: 865px;
+ 	z-index: 5;
+ }
+
+ #ciatoy3 {
+ 	left: 40px;
+ 	top: 1208px;
+ 	position: absolute;
+ 	width: 289px;
+ 	height: 350px;
+ 	z-index: 6;
+ 	text-align: center;
+ }
+
+ #abelha3 {
+ 	left: 380px;
+ 	top: 1169px;
+ 	position: absolute;
+ 	width: 266px;
+ 	height: 400px;
+ 	z-index: 7;
+ 	text-align: center;
+ }
+
+ #cuba3 {
+ 	left: 702px;
+ 	top: 1162px;
+ 	position: absolute;
+ 	width: 271px;
+ 	height: 400px;
+ 	z-index: 8;
+ }
+
+ #bumerang3 {
+ 	left: 225px;
+ 	top: 1675px;
+ 	position: absolute;
+ 	width: 243px;
+ 	height: 350px;
+ 	z-index: 9;
+ }
+
+ #superlegal3 {
+ 	left: 521px;
+ 	top: 1592px;
+ 	position: absolute;
+ 	width: 308px;
+ 	height: 430px;
+ 	z-index: 10;
+ }
+
+ #base3 {
+ 	left: -13px;
+ 	top: -131px;
+ 	position: absolute;
+ 	width: 1089px;
+ 	height: 130px;
+ 	z-index: 11;
+ }
+
+ #logo3 {
+ 	left: 917px;
+ 	top: -113px;
+ 	position: absolute;
+ 	width: 87px;
+ 	height: 107px;
+ 	z-index: 12;
+ }
+
+ #menu3 {
+ 	left: 41px;
+ 	top: -89px;
+ 	position: absolute;
+ 	width: 111px;
+ 	height: 52px;
+ 	z-index: 13;
+ }
+
+ #linha3 {
+ 	left: -21px;
+ 	top: -6px;
+ 	position: absolute;
+ 	width: 1098px;
+ 	height: 6px;
+ 	z-index: 14;
+ }

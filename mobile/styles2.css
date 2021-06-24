@@ -1,0 +1,164 @@
+#background2 {
+    left: 0px;
+    top: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    height: 2069px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#fundocopy2 {
+    left: -266px;
+    top: -127px;
+    position: absolute;
+    width: 1556px;
+    height: 2417px;
+    z-index: 1;
+}
+
+#selocompra2 {
+    left: 37px;
+    top: 412px;
+    position: absolute;
+    width: 464px;
+    height: 466px;
+    z-index: 2;
+}
+
+#Forma1 {
+    left: 322px;
+    top: 590px;
+    position: absolute;
+    width: 469px;
+    height: 446px;
+    z-index: 3;
+}
+
+#Forma2 {
+    left: 85px;
+    top: 1182px;
+    position: absolute;
+    width: 495px;
+    height: 340px;
+    z-index: 4;
+}
+
+#Forma3 {
+    left: 24px;
+    top: 1608px;
+    position: absolute;
+    width: 471px;
+    height: 415px;
+    z-index: 5;
+}
+
+#Passo1 {
+    left: 753px;
+    top: 590px;
+    position: absolute;
+    width: 227px;
+    height: 166px;
+    z-index: 6;
+}
+
+#layer_1 {
+    left: 753px;
+    top: 489px;
+    position: absolute;
+    width: 85px;
+    height: 88px;
+    z-index: 7;
+}
+
+#Passo2 {
+    left: 593px;
+    top: 1186px;
+    position: absolute;
+    width: 299px;
+    height: 238px;
+    z-index: 8;
+}
+
+#layer_2 {
+    left: 581px;
+    top: 1082px;
+    position: absolute;
+    width: 87px;
+    height: 89px;
+    z-index: 9;
+}
+
+#Passo3 {
+    left: 513px;
+    top: 1698px;
+    position: absolute;
+    width: 468px;
+    height: 241px;
+    z-index: 10;
+}
+
+#layer_3 {
+    left: 508px;
+    top: 1589px;
+    position: absolute;
+    width: 80px;
+    height: 83px;
+    z-index: 11;
+}
+
+#Aprenda {
+    left: 29px;
+    top: 259px;
+    position: absolute;
+    width: 980px;
+    height: 111px;
+    z-index: 12;
+}
+
+#Ttulo {
+    left: 13px;
+    top: 31px;
+    position: absolute;
+    width: 1005px;
+    height: 161px;
+    z-index: 13;
+}
+
+#base {
+    left: -13px;
+    top: -130px;
+    position: absolute;
+    width: 1089px;
+    height: 130px;
+    z-index: 14;
+}
+
+#logo {
+    left: 917px;
+    top: -112px;
+    position: absolute;
+    width: 87px;
+    height: 107px;
+    z-index: 15;
+}
+
+#menu {
+    left: 41px;
+    top: -88px;
+    position: absolute;
+    width: 111px;
+    height: 52px;
+    z-index: 16;
+}
+
+#linha {
+    left: -21px;
+    top: -5px;
+    position: absolute;
+    width: 1098px;
+    height: 6px;
+    z-index: 17;
+}

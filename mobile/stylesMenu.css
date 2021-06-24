@@ -1,0 +1,57 @@
+ #backgroundMenu {
+ 	left: 0px;
+ 	top: 0px;
+ 	position: relative;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 1024px;
+ 	height: 128px;
+ 	overflow: hidden;
+ 	z-index: 0;
+ 	margin-bottom: 25px;
+ }
+
+ #base {
+ 	left: 0px;
+ 	top: 0px;
+ 	position: absolute;
+ 	width: 1024px;
+ 	height: 128px;
+ 	z-index: 1;
+ }
+
+ #base_0 {
+ 	left: -13px;
+ 	top: -2px;
+ 	position: absolute;
+ 	width: 1089px;
+ 	height: 130px;
+ 	z-index: 2;
+ }
+
+ #logo {
+ 	left: 917px;
+ 	top: 16px;
+ 	position: absolute;
+ 	width: 87px;
+ 	height: 107px;
+ 	z-index: 3;
+ }
+
+ #menu {
+ 	left: 41px;
+ 	top: 40px;
+ 	position: absolute;
+ 	width: 111px;
+ 	height: 52px;
+ 	z-index: 4;
+ }
+
+ #linha {
+ 	left: -21px;
+ 	top: 123px;
+ 	position: absolute;
+ 	width: 1098px;
+ 	height: 6px;
+ 	z-index: 5;
+ }

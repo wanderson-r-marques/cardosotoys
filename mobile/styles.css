@@ -1,0 +1,118 @@
+ body {
+ 	margin: 0;
+ 	padding: 0;
+
+ }
+
+ #background {
+ 	left: 0px;
+ 	top: 0px;
+ 	position: relative;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 1024px;
+ 	height: 2200px;
+ 	overflow: hidden;
+ 	z-index: 0;
+ 	background-color: #E44588;
+ 	background-image: url(images/bg.jpg);
+ 	background-repeat: no-repeat;
+ }
+
+ #selocompra {
+ 	left: 559px;
+ 	top: 846px;
+ 	position: absolute;
+ 	width: 515px;
+ 	height: 518px;
+ 	z-index: 1;
+ }
+
+ #video {
+ 	left: 657px;
+ 	top: 574px;
+ 	position: absolute;
+ 	width: 332px;
+ 	height: 251px;
+ 	z-index: 2;
+ }
+
+ #BonecaSFcopy {
+ 	left: 8px;
+ 	top: 185px;
+ 	position: absolute;
+ 	width: 267px;
+ 	height: 369px;
+ 	z-index: 3;
+ }
+
+ #ttulocopy {
+ 	left: 212px;
+ 	top: 0px;
+ 	position: absolute;
+ 	width: 781px;
+ 	height: 241px;
+ 	z-index: 4;
+ }
+
+ #garanta {
+ 	left: 642px;
+ 	top: 1352px;
+ 	position: absolute;
+ 	width: 345px;
+ 	height: 96px;
+ 	z-index: 5;
+ }
+
+ #geladeiragelasorveti {
+ 	left: 290px;
+ 	top: 376px;
+ 	position: absolute;
+ 	width: 708px;
+ 	height: 163px;
+ 	z-index: 6;
+ }
+
+ #puxe {
+ 	left: 63px;
+ 	top: 1650px;
+ 	position: absolute;
+ 	width: 239px;
+ 	height: 98px;
+ 	z-index: 7;
+ 	padding-top: 300px;
+ }
+
+ #aperte {
+ 	left: 377px;
+ 	top: 1700px;
+ 	position: absolute;
+ 	width: 250px;
+ 	height: 99px;
+ 	z-index: 8;
+ 	padding-top: 250px;
+ }
+
+ #osorvete {
+ 	left: 643px;
+ 	top: 1650px;
+ 	position: absolute;
+ 	width: 355px;
+ 	height: 117px;
+ 	z-index: 9;
+ 	padding-top: 290px;
+ }
+
+ #chegou {
+ 	left: 341px;
+ 	top: 268px;
+ 	position: absolute;
+ 	width: 303px;
+ 	height: 108px;
+ 	z-index: 10;
+ }
+
+ .esconde {
+ 	text-indent: -99999px;
+ 	float: left;
+ }

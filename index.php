@@ -14,7 +14,7 @@
 <body>
 	<div id="background">
 		<div id="selocompra">
-			<p class="esconde">Compre agora 1</p>
+			<p class="esconde">Compre agora</p>
 			<img class="tremendo" src="images/selocompra.png">
 		</div>
 		<div id="crianageladeira"><img src="images/crianageladeira.png"></div>

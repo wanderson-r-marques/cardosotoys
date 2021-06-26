@@ -34,13 +34,16 @@ $mail->addAddress("wanderson.r.marques@gmail.com"); // Name is optional
 // Optional name
 $mail->isHTML(true); // Set email format to HTML
 
-$mail->Subject = $assunto;
+$mail->Subject = "Contato do Site";
 
-$mail->Body = $corpo;
-$mail->AltBody = '';
-
-$mandaEmail = $mail->send();
-
-if ($mandaEmail) {
-    header('Location: contatos.php?enviado=1');
+$mail->Body = "
+<h3>Mensagem enviada pelo formulário do site</h3><br><br>
+Nome: " . $nome . "<br>
+Telefone: " . $celular . "<br>
+";
+try {
+    $mail->send();
+} catch (Exception  $th) {
+    print_r($th);
+    echo 'erro';
 }

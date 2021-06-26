@@ -171,8 +171,8 @@ if ($dispositivo == "computador") {
 				</p>
 
 				<form action="send.php" method="post">
-					<input type="text" placeholder="Nome" name="nome">
-					<input type="text" placeholder="Celular" class="telefone" name="celular">
+					<input required type="text" placeholder="Nome" name="nome">
+					<input required type="text" placeholder="Celular" class="telefone" name="celular">
 					<input type="submit" value="ENVIAR" name="celular">
 				</form>
 

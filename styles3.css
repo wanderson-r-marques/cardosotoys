@@ -68,8 +68,42 @@
 	position: absolute;
 	width: 283px;
 	height: 213px;
-	z-index: 6;
+	z-index: 9999;
+	text-align: center;
 }
+
+#Formulario p {
+	color: #d273a8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+#Formulario input {
+	width: 260px;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin-bottom: 15px;
+	font-size: 16px;
+
+}
+
+#Formulario input:focus {
+	outline: none;
+}
+
+#Formulario input[type="text"] {
+	background: none;
+	border: 1px yellow solid;
+	color: #fff;
+}
+
+#Formulario input[type="submit"] {
+	background: #a60268;
+	width: 280px;
+	border: none;
+	color: #fff;
+}
+
 
 #Parasabermais {
 	left: 236px;

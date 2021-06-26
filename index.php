@@ -159,13 +159,23 @@ if ($dispositivo == "computador") {
 				<p class="esconde">Geladeira Gela Sorvetinho</p>
 				<img src="images/BonecaSF.png">
 			</div>
-			<div id="Face"><img src="images/Face.png"></div>
-			<div id="Insta"><img src="images/Insta.png"></div>
+			<div id="Face">
+				<a target="_blank" href="https://www.facebook.com/CardosoToys/"><img src="images/Face.png"></a>
+			</div>
+			<div id="Insta">
+				<a target="_blank" href="https://www.instagram.com/cardosotoys/?hl=pt-br"><img src="images/Insta.png"></a>
+			</div>
 			<div id="Formulario">
-				<h2 class="esconde">
+				<p>
 					Preencha o formulário abaixo para receber as novidades CARDOSO TOYS em primeira mão!
-				</h2>
-				<img src="images/Formulario.png">
+				</p>
+
+				<form action="send.php" method="post">
+					<input type="text" placeholder="Nome" name="nome">
+					<input type="text" placeholder="Celular" class="telefone" name="celular">
+					<input type="submit" value="ENVIAR" name="celular">
+				</form>
+
 				<p class="esconde">
 					Quero receber as novidades CARDOSO TOYS por Whatsapp
 				</p>
@@ -184,6 +194,11 @@ if ($dispositivo == "computador") {
 			</div>
 		</div>
 	</section>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<script>
+		$('.telefone').mask('(99) 9-9999-9999');
+	</script>
 </body>
 
 </html>

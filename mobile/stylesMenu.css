@@ -1,15 +1,25 @@
  #backgroundMenu {
  	left: 0px;
  	top: 0px;
- 	position: relative;
+ 	position: fixed;
  	margin-left: auto;
  	margin-right: auto;
  	width: 1024px;
  	height: 128px;
  	overflow: hidden;
- 	z-index: 0;
+ 	z-index: 99999;
  	margin-bottom: 25px;
+ 	left: calc(50% - 512px);
  }
+
+ .fixaMenu {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 1024px;
+
+ }
+
+
 
  #base {
  	left: 0px;
@@ -27,6 +37,7 @@
  	width: 1089px;
  	height: 130px;
  	z-index: 2;
+ 	display: fixed;
  }
 
  #logo {
@@ -54,4 +65,56 @@
  	width: 1098px;
  	height: 6px;
  	z-index: 5;
+ }
+
+ .espaco {
+ 	width: 100%;
+ 	height: 1px;
+ 	clear: both;
+ }
+
+ .menu {
+ 	width: 650px;
+ 	height: auto !important;
+ 	position: fixed;
+ 	z-index: 9999999999;
+ 	top: 111px;
+ }
+
+ .menu .menuMeio {
+ 	background: url(../images/bg-menu.png);
+ 	width: 100%;
+ 	text-transform: uppercase;
+ }
+
+ .menu .menuRodape {
+ 	width: 650px;
+ 	height: 56px;
+ 	background: url(../images/footer-menu.png);
+ }
+
+ .menu ul {
+ 	padding-top: 20px;
+ 	padding-inline-start: 40px;
+ 	padding-inline-end: 40px;
+ 	margin-bottom: 0
+ }
+
+ .menu ul li {
+ 	margin-top: 30px;
+ 	list-style: none;
+
+ }
+
+ .borderBottomRosa {
+ 	border-bottom: 1px solid #e24888;
+ 	;
+ }
+
+ .menu ul li a {
+ 	color: #e24888;
+ 	font-size: 45px;
+ 	font-family: 'arial';
+ 	font-weight: bold;
+ 	text-decoration: none;
  }

@@ -5,7 +5,7 @@
  	margin-left: auto;
  	margin-right: auto;
  	width: 1024px;
- 	height: 2070px;
+ 	height: 2120px;
  	overflow: hidden;
  	z-index: 0;
 
@@ -16,8 +16,9 @@
  	top: 0px;
  	position: absolute;
  	width: 1024px;
- 	height: 2070px;
+ 	height: 2120px;
  	z-index: 1;
+ 	background-color: #6F0C81;
  }
 
  #GelaSorvetinho {
@@ -65,6 +66,39 @@
  	z-index: 6;
  }
 
+ #Formulario p {
+ 	color: #d273a8;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	font-size: 28px;
+ }
+
+ #Formulario input {
+ 	width: 637px;
+ 	border-radius: 10px;
+ 	padding: 20px 20px;
+ 	margin-bottom: 15px;
+ 	font-size: 30px;
+
+ }
+
+ #Formulario input:focus {
+ 	outline: none;
+ }
+
+ #Formulario input[type="text"] {
+ 	background: none;
+ 	border: 1px yellow solid;
+ 	color: #fff;
+ }
+
+ #Formulario input[type="submit"] {
+ 	background: #a60268;
+ 	width: 680px;
+ 	border: none;
+ 	color: #fff;
+ 	padding: 20px 0;
+ }
+
  #Cardoso {
  	left: 172px;
  	top: 1764px;
@@ -74,9 +108,13 @@
  	z-index: 7;
  }
 
+ #Cardoso ul li {
+ 	list-style: none;
+ }
+
  #linha4 {
  	left: 84px;
- 	top: 1690px;
+ 	top: 1640px;
  	position: absolute;
  	width: 852px;
  	height: 8px;
@@ -90,4 +128,47 @@
  	width: 676px;
  	height: 109px;
  	z-index: 9;
+ }
+
+ #Formulario .receberZap {
+ 	margin-top: 30px;
+ }
+
+ input[type=checkbox] {
+ 	transform: scale(1.5);
+ }
+
+ #Formulario .receberZap input,
+ .receberZap p {
+ 	float: left;
+ }
+
+ #Formulario .receberZap input {
+ 	width: 20px;
+ 	margin-top: 10px;
+ 	font-size: 30px;
+ }
+
+ #Formulario .receberZap p {
+ 	width: 650px;
+ 	margin-top: 3px;
+ 	font-size: 24px;
+ }
+
+ ::-webkit-input-placeholder {
+ 	color: #fff;
+ }
+
+ :-moz-placeholder {
+ 	/* Firefox 18- */
+ 	color: #fff;
+ }
+
+ ::-moz-placeholder {
+ 	/* Firefox 19+ */
+ 	color: #fff;
+ }
+
+ :-ms-input-placeholder {
+ 	color: #fff;
  }

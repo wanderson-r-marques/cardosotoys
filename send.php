@@ -3,6 +3,13 @@ require 'phpmailer/PHPMailerAutoload.php';
 
 $nome = $_POST['nome'];
 $celular = $_POST['celular'];
+$whatsapp = $_POST['whatsapp'];
+
+if ($whatsapp == 1)
+    $recebe = 'Sim';
+else
+    $recebe = 'Não';
+
 $email = "site@gelasorvetinho.com.br";
 
 $mail = new PHPMailer;
@@ -28,8 +35,8 @@ $mail->Port = 587; // TCP port to connect to
 $mail->setFrom($email, "Contato do Site");
 // Add a recipient
 
-$mail->addAddress("wanderson.r.marques@gmail.com"); // Name is optional
-//$mail->addAddress('cardosotoys@blendcomunicacao.com.br'); // Name is optional
+// $mail->addAddress("wanderson.r.marques@gmail.com"); // Name is optional
+$mail->addAddress('cardosotoys@blendcomunicacao.com.br'); // Name is optional
 
 // Optional name
 $mail->isHTML(true); // Set email format to HTML
@@ -40,10 +47,13 @@ $mail->Body = "
 <h3>Mensagem enviada pelo formulário do site</h3><br><br>
 Nome: " . $nome . "<br>
 Telefone: " . $celular . "<br>
+Receber Zap: " . $recebe . "<br>
 ";
 try {
-    $mail->send();
+    if ($mail->send()) {
+        echo "<script>alert('Contato enviado com sucesso!');
+        window.history.back();</script>";
+    }
 } catch (Exception  $th) {
     print_r($th);
-    echo 'erro';
 }

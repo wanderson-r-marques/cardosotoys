@@ -21,7 +21,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian || $
 //Se for um dispositivo móvel
 if ($dispositivo == "mobile") {
 
-	header('Location: /mobile');
+	header('Location: mobile/');
 	exit;
 }
 
@@ -105,7 +105,7 @@ if ($dispositivo == "computador") {
 			<div id="bumerang2" class="tremendoPassaMouse"><a target="_blank" href="https://www.bumerangbrinquedos.com.br/cardoso"><img src="images/bumerang2.png"></a></div>
 			<div id="superlegal2" class="tremendoPassaMouse"><a target="_blank" href="https://www.superlegalbrinquedos.com.br/cardoso?&utmi_p=_&utmi_pc=BuscaFullText&utmi_cp=cardoso#1"><img src="images/superlegal2.png"></a></div>
 			<div id="Forma12"><img src="images/Forma12.png"></div>
-			<div id="menina2"><img src="images/menina2.png"></div>
+			<div id="menina2"><img src="images/menina3.png"></div>
 			<div id="Forma22"><img src="images/Forma22.png"></div>
 			<div id="Forma32"><img src="images/Forma32.png"></div>
 			<div id="Camada12"><img src="images/Camada12.png"></div>
@@ -174,11 +174,15 @@ if ($dispositivo == "computador") {
 					<input required type="text" placeholder="Nome" name="nome">
 					<input required type="text" placeholder="Celular" class="telefone" name="celular">
 					<input type="submit" value="ENVIAR" name="celular">
+					<br>
+					<div class="receberZap">
+						<input type="checkbox" name="whatsapp" value="1" id="whatsapp">
+						<p>
+							Quero receber as novidades CARDOSO TOYS por Whatsapp
+						</p>
+					</div>
 				</form>
 
-				<p class="esconde">
-					Quero receber as novidades CARDOSO TOYS por Whatsapp
-				</p>
 			</div>
 			<div id="Parasabermais">
 				<h2 class="esconde">

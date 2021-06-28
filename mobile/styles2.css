@@ -162,3 +162,8 @@
     height: 6px;
     z-index: 17;
 }
+
+.tremendoPassaMouse:hover {
+    animation: tremer 1s;
+    animation-iteration-count: infinite;
+}

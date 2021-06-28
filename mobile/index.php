@@ -10,24 +10,45 @@
 	<link href="styles4.css" rel="stylesheet" type="text/css">
 	<link href="stylesMenu.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+	<link rel="stylesheet" href="../css/jquery.modal.min.css" />
 </head>
 
 <body>
-	<div id="backgroundMenu">
-		<div id="base"><img src="images/base.png"></div>
-		<div id="base_0"><img src="images/base_0.png"></div>
-		<div id="logo"><img src="images/logo.png"></div>
-		<div id="menu"><img src="images/menu.png"></div>
-		<div id="linha"><img src="images/linha.png"></div>
+	<div id="como-brincar"></div>
+	<div class="fixaMenu">
+
+		<div id="backgroundMenu">
+			<div id="base"><img src="images/base.png"></div>
+			<div id="base_0"><img src="images/base_0.png"></div>
+			<div id="logo"><img src="images/logo.png"></div>
+			<div id="menu">
+				<img src="images/menu.png">
+				<nav class="menu" style="display: none">
+					<div class="menuMeio">
+						<ul>
+							<li class="borderBottomRosa"><a href="#como-brincar">Como brincar?</a></li>
+							<li class="borderBottomRosa"><a href="#sorvete-de-verdade">Sorvete de Verdade</a></li>
+							<li class="borderBottomRosa"><a href="#onde-comprar">Onde comprar?</a></li>
+							<li><a href="#cadastro">Cadastro</a></li>
+						</ul>
+					</div>
+					<div class="menuRodape">
+					</div>
+				</nav>
+			</div>
+			<div id="linha"><img src="images/linha.png"></div>
+		</div>
 	</div>
+
+
 	<div id="background">
 		<div id="selocompra">
 			<p class="esconde">Compre agora</p>
-			<img src="images/selocompra.png">
+			<a href="#onde-comprar"><img src="images/selocompra.png" class="tremendo"></a>
 		</div>
 		<div id="video">
 			<p class="esconde">Assista o vídeo</p>
-			<img src="images/video.png">
+			<a href="#ex1" rel="modal:open"><img src="images/video.png"></a>
 		</div>
 		<div id="BonecaSFcopy"><img src="images/BonecaSFcopy.png"></div>
 		<div id="ttulocopy">
@@ -59,9 +80,11 @@
 			<img src="images/chegou.png">
 		</div>
 	</div>
+
+	<div id="sorvete-de-verdade"></div>
 	<div id="background2">
 		<div id="fundocopy2"><img src="images/fundocopy2.png"></div>
-		<div id="selocompra2"><img src="images/selocompra.png"></div>
+		<div id="selocompra2"><a href="#onde-comprar"><img src="images/selocompra.png"></a></div>
 		<div id="Forma1"><img src="images/Forma1.png"></div>
 		<div id="Forma2"><img src="images/Forma2.png"></div>
 		<div id="Forma3"><img src="images/Forma3.png"></div>
@@ -89,6 +112,8 @@
 			<img src="images/Ttulo.png">
 		</div>
 	</div>
+
+	<div id="onde-comprar"></div>
 	<div id="background3">
 		<div id="fundo3"><img src="images/fundo.png"></div>
 		<div id="fundo_03"><img src="images/fundo_0.png"></div>
@@ -101,12 +126,16 @@
 			<h3 class="esconde">SWEER FANTASY Geladeira Gela Sorvetinho</h3>
 			<img src="images/VectorSmartObject.png">
 		</div>
-		<a id="ciatoy3"><img src="images/ciatoy.png"></a>
-		<a id="abelha3"><img src="images/abelha.png"></a>
-		<a id="cuba3"><img src="images/cuba.png"></a>
-		<a id="bumerang3"><img src="images/bumerang.png"></a>
-		<a id="superlegal3"><img src="images/superlegal.png"></a>
+
+		<a target="_blank" href="https://www.ciatoy.com.br/busca?ft=cardoso" id="ciatoy3"><img src="images/ciatoy.png" class="tremendoPassaMouse"></a>
+		<a target="_blank" href="https://www.abelhamix.com.br/produto/sweety-fantasy-geladeira-gela-sorvetinho-cardoso-toys-50cm.html" id="abelha3"><img src="images/abelha.png" class="tremendoPassaMouse"></a>
+		<a target="_blank" href="https://www.lojacuba.com.br/catalogsearch/result/?q=cardoso" id="cuba3"><img src="images/cuba.png" class="tremendoPassaMouse"></a>
+		<a target="_blank" href="https://www.bumerangbrinquedos.com.br/cardoso" id="bumerang3"><img src="images/bumerang.png" class="tremendoPassaMouse"></a>
+		<a target="_blank" href="https://www.superlegalbrinquedos.com.br/cardoso?&utmi_p=_&utmi_pc=BuscaFullText&utmi_cp=cardoso#1" id="superlegal3"><img src="images/superlegal.png" class="tremendoPassaMouse"></a>
+
 	</div>
+
+	<div id="cadastro"></div>
 	<div id="background4">
 		<div id="fundo4"><img src="images/fundo4.png"></div>
 		<div id="GelaSorvetinho">
@@ -115,25 +144,40 @@
 		</div>
 		<div id="BonecaSF"><img src="images/BonecaSF.png"></div>
 		<div id="Face">
-			<p class="esconde">Facebook</p>
-			<img src="images/Face.png">
+			<a target="_blank" href="https://www.facebook.com/CardosoToys/"><img src="images/Face.png"></a>
 		</div>
 		<div id="Insta">
-			<p class="esconde">Instagram</p>
-			<img src="images/Insta.png">
+			<a target="_blank" href="https://www.instagram.com/cardosotoys/?hl=pt-br"><img src="images/Insta.png"></a>
 		</div>
 		<div id="Formulario">
-			<p class="esconde">Preencha o formulário abaixo para receber as novidades CARDOSO TOYS em primeira mão!</p>
-			<img src="images/Formulario.png">
+			<p>
+				Preencha o formulário abaixo para receber as novidades CARDOSO TOYS em primeira mão!
+			</p>
+
+			<form action="../send.php" method="post">
+				<input required type="text" placeholder="Nome" name="nome">
+				<input required type="text" placeholder="Celular" class="telefone" name="celular">
+				<input type="submit" value="ENVIAR" name="celular">
+				<br>
+				<div class="receberZap">
+					<input type="checkbox" name="whatsapp" value="1" id="whatsapp">
+					<p>
+						Quero receber as novidades CARDOSO TOYS por Whatsapp
+					</p>
+				</div>
+			</form>
+
+
+
 		</div>
 		<div id="Cardoso">
 			<p class="esconde">Quero receber as novidades CARDOSO TOYS por Whatsapp</p>
 			<ul class="esconde">
-				<li>SAC - Ligação gratuita: 0800-7073676</li>
-				<li>Whatsapp: (11) 99948-1693</li>
-				<li>De 2ª a 6ª das 8h às 12h e das 13h às 16h (exceto feriados)</li>
-				<li>Rua Matashiro Yamaguishi, 278/390, Itaquera - São Paulo - SP - CEP 08260-040</li>
-				<li>CNPJ: 57.464.109/0001-05</li>
+				<li class="esconde">SAC - Ligação gratuita: 0800-7073676</li>
+				<li class="esconde">Whatsapp: (11) 99948-1693</li>
+				<li class="esconde">De 2ª a 6ª das 8h às 12h e das 13h às 16h (exceto feriados)</li>
+				<li class="esconde">Rua Matashiro Yamaguishi, 278/390, Itaquera - São Paulo - SP - CEP 08260-040</li>
+				<li class="esconde">CNPJ: 57.464.109/0001-05</li>
 			</ul>
 
 			<img src="images/Cardoso.png">
@@ -144,6 +188,28 @@
 			<img src="images/Parasabermais.png">
 		</div>
 	</div>
+
+
+	<div id="ex1" class="modal">
+		<video width="100%" controls>
+			<source src="../videos/cardosotoys.mp4" type="video/mp4">
+			<source src="movie.ogg" type="video/ogg">
+
+		</video>
+
+	</div>
+
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery.modal.min.js"></script>
+
+	<script>
+		$(function() {
+			$('#menu').click(function() {
+				$('.menu').toggle(200);
+			});
+		})
+	</script>
 </body>
 
 </html>

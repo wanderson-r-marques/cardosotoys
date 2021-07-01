@@ -44,7 +44,7 @@ if ($dispositivo == "computador") {
 		<link href="styles.css" rel="stylesheet" type="text/css">
 		<link href="styles2.css" rel="stylesheet" type="text/css">
 		<link href="styles3.css" rel="stylesheet" type="text/css">
-
+		<link rel="stylesheet" href="css/jquery.modal.min.css" />
 		<!-- Facebook Pixel Code -->
 		<script>
 			! function(f, b, e, v, n, t, s) {
@@ -85,7 +85,8 @@ if ($dispositivo == "computador") {
 				<img src="images/crianageladeira.png">
 			</div>
 			<div id="video">
-				<p class="esconde">Assista o vídeo</p><img src="images/video.png">
+				<p class="esconde">Assista o vídeo</p>
+				<a href="#ex1" rel="modal:open"><img src="images/video.png"></a>
 			</div>
 			<div id="foto3">
 				<p class="esconde">Tire o sorvetinho</p><img src="images/foto3.png">
@@ -119,7 +120,7 @@ if ($dispositivo == "computador") {
 					<h5 class="esconde">SWEET FANTASY Geladeira Gela Sorvetinho</h5>
 					<a target="_blank" href="https://www.ciatoy.com.br/busca?ft=cardoso">CiaToy</a>
 					<a target="_blank" href="https://www.abelhamix.com.br/produto/sweety-fantasy-geladeira-gela-sorvetinho-cardoso-toys-50cm.html">Abelhamix</a>
-					<a target="_blank" href="https://www.lojacuba.com.br/sweet-fantasy-geladeira-gela-sorvetinho-cardoso">Loja Cuba</a>
+					<a target="_blank" href="https://www.lojacuba.com.br/catalogsearch/result/?q=cardoso">Loja Cuba</a>
 					<a target="_blank" href="https://www.bumerangbrinquedos.com.br/cardoso">Bumerang</a>
 					<a target="_blank" href="https://www.superlegalbrinquedos.com.br/cardoso?&utmi_p=_&utmi_pc=BuscaFullText&utmi_cp=cardoso#1">Superlegal</a>
 				</nav>
@@ -127,7 +128,7 @@ if ($dispositivo == "computador") {
 			</div>
 			<div id="ciatoy2" class="tremendoPassaMouse"><a target="_blank" href="https://www.ciatoy.com.br/busca?ft=cardoso"><img src="images/ciatoy2.png"></a></div>
 			<div id="abelha2" class="tremendoPassaMouse"><a target="_blank" href="https://www.abelhamix.com.br/produto/sweety-fantasy-geladeira-gela-sorvetinho-cardoso-toys-50cm.html"><img src="images/abelha2.png"></a></div>
-			<div id="cuba2" class="tremendoPassaMouse"><a target="_blank" href="https://www.lojacuba.com.br/sweet-fantasy-geladeira-gela-sorvetinho-cardoso"></a></div>
+			<div id="cuba2" class="tremendoPassaMouse"><a target="_blank" href="https://www.lojacuba.com.br/catalogsearch/result/?q=cardoso"><img src="images/cuba2.png"></a></div>
 			<div id="bumerang2" class="tremendoPassaMouse"><a target="_blank" href="https://www.bumerangbrinquedos.com.br/cardoso"><img src="images/bumerang2.png"></a></div>
 			<div id="superlegal2" class="tremendoPassaMouse"><a target="_blank" href="https://www.superlegalbrinquedos.com.br/cardoso?&utmi_p=_&utmi_pc=BuscaFullText&utmi_cp=cardoso#1"><img src="images/superlegal2.png"></a></div>
 			<div id="Forma12"><img src="images/Forma12.png"></div>
@@ -199,7 +200,7 @@ if ($dispositivo == "computador") {
 				<form action="send.php" method="post">
 					<input required type="text" placeholder="Nome" name="nome">
 					<input required type="text" placeholder="Celular" class="telefone" name="celular">
-					<input type="submit" value="ENVIAR" name="celular">
+					<input type="submit" value="ENVIAR" name="enviar">
 					<br>
 					<div class="receberZap">
 						<input type="checkbox" name="whatsapp" value="1" id="whatsapp">
@@ -224,8 +225,16 @@ if ($dispositivo == "computador") {
 			</div>
 		</div>
 	</section>
+	<div id="ex1" class="modal">
+		<video width="100%" controls>
+			<source src="../videos/cardosotoys.mp4" type="video/mp4">
+			<source src="movie.ogg" type="video/ogg">
+		</video>
+	</div>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mask.min.js"></script>
+	
+	<script src="js/jquery.modal.min.js"></script>
 	<script>
 		$('.telefone').mask('(99) 9-9999-9999');
 	</script>

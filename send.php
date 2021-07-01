@@ -15,8 +15,10 @@ $email = "site@gelasorvetinho.com.br";
 $mail = new PHPMailer;
 
 // Enable verbose debug output
+// $mail->SMTPDebug = 1;
 
 $mail->isSMTP();
+
 $mail->CharSet = 'UTF-8'; // Set mailer to use SMTP
 $mail->Host = 'mail.gelasorvetinho.com.br';
 $mail->SMTPOptions = array(
@@ -35,8 +37,8 @@ $mail->Port = 587; // TCP port to connect to
 $mail->setFrom($email, "Contato do Site");
 // Add a recipient
 
-// $mail->addAddress("wanderson.r.marques@gmail.com"); // Name is optional
-$mail->addAddress('cardosotoys@blendcomunicacao.com.br'); // Name is optional
+$mail->addAddress("atendimento@gelasorvetinho.com.br"); // Name is optional
+// $mail->addAddress('cardosotoys@blendcomunicacao.com.br'); // Name is optional
 
 // Optional name
 $mail->isHTML(true); // Set email format to HTML
@@ -49,11 +51,14 @@ Nome: " . $nome . "<br>
 Telefone: " . $celular . "<br>
 Receber Zap: " . $recebe . "<br>
 ";
+
 try {
-    if ($mail->send()) {
+    
+    if ($mail->send()) {        
         echo "<script>alert('Contato enviado com sucesso!');
-        window.history.back();</script>";
+        window.history.back();</script>";        
     }
-} catch (Exception  $th) {
-    print_r($th);
+    
+} catch (Exception  $th) {    
+    // print_r($mail->send());
 }

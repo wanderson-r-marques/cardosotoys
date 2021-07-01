@@ -154,7 +154,7 @@
 
 		<a target="_blank" href="https://www.ciatoy.com.br/busca?ft=cardoso" id="ciatoy3"><img src="images/ciatoy.png" class="tremendoPassaMouse"></a>
 		<a target="_blank" href="https://www.abelhamix.com.br/produto/sweety-fantasy-geladeira-gela-sorvetinho-cardoso-toys-50cm.html" id="abelha3"><img src="images/abelha.png" class="tremendoPassaMouse"></a>
-		<a target="_blank" href="https://www.lojacuba.com.br/sweet-fantasy-geladeira-gela-sorvetinho-cardoso" id="cuba3"><img src="images/cuba.png" class="tremendoPassaMouse"></a>
+		<a target="_blank" href="https://www.lojacuba.com.br/catalogsearch/result/?q=cardoso" id="cuba3"><img src="images/cuba.png" class="tremendoPassaMouse"></a>
 		<a target="_blank" href="https://www.bumerangbrinquedos.com.br/cardoso" id="bumerang3"><img src="images/bumerang.png" class="tremendoPassaMouse"></a>
 		<a target="_blank" href="https://www.superlegalbrinquedos.com.br/cardoso?&utmi_p=_&utmi_pc=BuscaFullText&utmi_cp=cardoso#1" id="superlegal3"><img src="images/superlegal.png" class="tremendoPassaMouse"></a>
 
@@ -182,7 +182,7 @@
 			<form action="../send.php" method="post">
 				<input required type="text" placeholder="Nome" name="nome">
 				<input required type="text" placeholder="Celular" class="telefone" name="celular">
-				<input type="submit" value="ENVIAR" name="celular">
+				<input type="submit" value="ENVIAR" name="enviar">
 				<br>
 				<div class="receberZap">
 					<input type="checkbox" name="whatsapp" value="1" id="whatsapp">
@@ -219,9 +219,7 @@
 		<video width="100%" controls>
 			<source src="../videos/cardosotoys.mp4" type="video/mp4">
 			<source src="movie.ogg" type="video/ogg">
-
 		</video>
-
 	</div>
 
 

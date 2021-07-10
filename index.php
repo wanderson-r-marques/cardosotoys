@@ -38,8 +38,10 @@ if ($dispositivo == "computador") {
 <head>
 
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 		<title>Cardoso Toys</title>
+		<meta name="facebook-domain-verification" content="hvkhhhgwpfuhoi8ik3yftybsiq0jyr" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 		<link href="styles.css" rel="stylesheet" type="text/css">
 		<link href="styles2.css" rel="stylesheet" type="text/css">
@@ -70,6 +72,19 @@ if ($dispositivo == "computador") {
 		</script>
 		<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=547244913079888&ev=PageView&noscript=1" /></noscript>
 		<!-- End Facebook Pixel Code -->
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118869504-3"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-118869504-3');
+		</script>
 	</head>
 
 <body>
@@ -118,19 +133,19 @@ if ($dispositivo == "computador") {
 			<div id="VectorSmartObject2">
 				<nav class="esconde">
 					<h5 class="esconde">SWEET FANTASY Geladeira Gela Sorvetinho</h5>
-					<a target="_blank" href="https://www.ciatoy.com.br/busca?ft=cardoso">CiaToy</a>
-					<a target="_blank" href="https://www.abelhamix.com.br/produto/sweety-fantasy-geladeira-gela-sorvetinho-cardoso-toys-50cm.html">Abelhamix</a>
-					<a target="_blank" href="https://www.lojacuba.com.br/catalogsearch/result/?q=cardoso">Loja Cuba</a>
-					<a target="_blank" href="https://www.bumerangbrinquedos.com.br/cardoso">Bumerang</a>
-					<a target="_blank" href="https://www.superlegalbrinquedos.com.br/cardoso?&utmi_p=_&utmi_pc=BuscaFullText&utmi_cp=cardoso#1">Superlegal</a>
+					<a target="_blank" href="https://bit.ly/3dXHnJJ">CiaToy</a>
+					<a target="_blank" href="https://bit.ly/3xpJ4aJ">Abelhamix</a>
+					<a target="_blank" href="https://bit.ly/2SYGb1A">Loja Cuba</a>
+					<a target="_blank" href="https://bit.ly/3k21nPe">Bumerang</a>
+					<a target="_blank" href="https://bit.ly/3hu4GgB">Superlegal</a>
 				</nav>
 				<img src="images/VectorSmartObject2.png">
 			</div>
-			<div id="ciatoy2" class="tremendoPassaMouse"><a target="_blank" href="https://www.ciatoy.com.br/busca?ft=cardoso"><img src="images/ciatoy2.png"></a></div>
-			<div id="abelha2" class="tremendoPassaMouse"><a target="_blank" href="https://www.abelhamix.com.br/produto/sweety-fantasy-geladeira-gela-sorvetinho-cardoso-toys-50cm.html"><img src="images/abelha2.png"></a></div>
-			<div id="cuba2" class="tremendoPassaMouse"><a target="_blank" href="https://www.lojacuba.com.br/catalogsearch/result/?q=cardoso"><img src="images/cuba2.png"></a></div>
-			<div id="bumerang2" class="tremendoPassaMouse"><a target="_blank" href="https://www.bumerangbrinquedos.com.br/cardoso"><img src="images/bumerang2.png"></a></div>
-			<div id="superlegal2" class="tremendoPassaMouse"><a target="_blank" href="https://www.superlegalbrinquedos.com.br/cardoso?&utmi_p=_&utmi_pc=BuscaFullText&utmi_cp=cardoso#1"><img src="images/superlegal2.png"></a></div>
+			<div id="ciatoy2" class="tremendoPassaMouse"><a target="_blank" href="https://bit.ly/3dXHnJJ"><img src="images/ciatoy2.png"></a></div>
+			<div id="abelha2" class="tremendoPassaMouse"><a target="_blank" href="https://bit.ly/3xpJ4aJ"><img src="images/abelha2.png"></a></div>
+			<div id="cuba2" class="tremendoPassaMouse"><a target="_blank" href="https://bit.ly/2SYGb1A"><img src="images/cuba2.png"></a></div>
+			<div id="bumerang2" class="tremendoPassaMouse"><a target="_blank" href="https://bit.ly/3k21nPe"><img src="images/bumerang2.png"></a></div>
+			<div id="superlegal2" class="tremendoPassaMouse"><a target="_blank" href="https://bit.ly/3hu4GgB"><img src="images/superlegal2.png"></a></div>
 			<div id="Forma12"><img src="images/Forma12.png"></div>
 			<div id="menina2"><img src="images/menina3.png"></div>
 			<div id="Forma22"><img src="images/Forma22.png"></div>
@@ -233,7 +248,7 @@ if ($dispositivo == "computador") {
 	</div>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mask.min.js"></script>
-	
+
 	<script src="js/jquery.modal.min.js"></script>
 	<script>
 		$('.telefone').mask('(99) 9-9999-9999');

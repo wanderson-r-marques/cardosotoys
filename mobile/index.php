@@ -3,6 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="facebook-domain-verification" content="hvkhhhgwpfuhoi8ik3yftybsiq0jyr" />
 	<title>Cardoso Toys</title>
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	<link href="styles2.css" rel="stylesheet" type="text/css">
@@ -36,6 +37,19 @@
 	</script>
 	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=547244913079888&ev=PageView&noscript=1" /></noscript>
 	<!-- End Facebook Pixel Code -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118869504-3"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-118869504-3');
+		</script>
 </head>
 
 <body>
